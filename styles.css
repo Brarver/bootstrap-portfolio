@@ -1,13 +1,48 @@
-.navbar {
-    background-color: #ffffff;
+* {
+    box-sizing: border-box;
 }
 
-.navbar-nav {
-    /* display: inline-block; */
-    /* float: right; */
-    margin-right: 0;
+.main-nav-container {
+    border-bottom: 2px solid #cccccc;
 }
+
+.navbar-container {
+    width: 960px;
+    padding: 0;
+    margin: auto;
+    background-color: #ffffff;
+    height: 60px;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: white;
+    height: 60px;
+}
+
+#myname {
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 15px 25px;
+    justify-content: middle;
+}
+
+#myname h2 {
+    font-weight: bold;
+}
+
+/* .navbar-toggler {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-toggler-icon {
+    color: rgba(0, 0, 0, 0.9);
+} */
 
 .nav-item {
     color: #777777;
+}
+
+.navbar {
+    padding: 0;
 }
