@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-nav {
+    /* display: inline-block; */
+    /* float: right; */
+    margin-right: 0;
+}
+
+.nav-item {
+    color: #777777;
+}
