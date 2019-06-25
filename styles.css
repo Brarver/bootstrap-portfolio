@@ -20,9 +20,8 @@ body {
 .navbar-container {
     width: 960px;
     padding: 0;
-    margin: auto;
     background-color: #ffffff;
-    height: 60px;
+    
 }
 
 .navbar-brand {
@@ -35,7 +34,7 @@ body {
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 15px 25px;
-    justify-content: middle;
+    
 }
 
 #myname h2 {
@@ -111,4 +110,14 @@ p {
 
 #profile-image {
     margin-right: 15px;
+}
+
+/*************Contact Page******************************************/
+
+.btn.btn-primary {
+    background-color: #4aaaa5;
+}
+
+#exampleFormControlTextarea1 {
+    height: 200px;
 }
