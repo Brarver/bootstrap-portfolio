@@ -7,6 +7,7 @@
 body {
     margin: 0;
     background-image: url("images/gravel.png");
+    color: #777777;
 }
 
 
@@ -151,8 +152,19 @@ p {
 
 .btn.btn-primary {
     background-color: #4aaaa5;
+    border-radius: 0;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #exampleFormControlTextarea1 {
     height: 200px;
+}
+
+.form-group {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.form-control {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
